@@ -3,8 +3,8 @@
 require_once '../modelo/empleados.php';
 
 /*
-new Empleado("Nicole", "Moran", 11, "Femenino", "Soltero(a)", 4500);  
-new Empleado("Belcy", "Cortes", 37, "Masculino", "Soltero(a)", 3500);  
+new Empleado("Reinaldo", "David", 11, "Masculino", "Soltero(a)", 4500);  
+new Empleado("emely", "vilchez", 37, "femenino", "Soltero(a)", 3500);  
 */
 
 
