@@ -1,25 +1,9 @@
-<footer class="footer">
-    <h4> Practica de PHP<br>Todos los derechos reservados <br> Realizado por: Jesus Moran <br> Enero de 2023</h4>
-</footer>    
-
-<script src="assest/js/bootstrap.bundle.min.js"></script>
-<script src="assest/js/jquery-3.6.3.min.js"></script>
-<script src="assest/js/functions.js"></script>
+<footer>
+		Realizado por: REINALDO DAVID<br>
+		<a href="https://github.com/reinaldojosedavid" target="_blank">https://github.com/reinaldojosedavid</a><br>
+		 <?php echo date('Y'); ?>
+	</footer>	
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 </body>
 </html>
-
-
-<!-- Modal -->
-<div class="modal fade" id="success" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-  <div class="modal-dialog">
-    <div class="modal-content">
-      <div class="modal-body">
-            <img src="assest/images/check.gif" alt="Almacenado Correcto" width="100px" class="check-img"><br>
-            <h4>Empleado almacenado con éxito</h4>
-      </div>
-      <div class="modal-footer">
-        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-      </div>
-    </div>
-  </div>
-</div>

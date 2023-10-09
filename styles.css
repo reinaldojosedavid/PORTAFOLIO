@@ -1,139 +1,54 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,700;1,700&family=Roboto:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;0,700;1,400&display=swap');
 
-html{
-    scroll-behavior: smooth;
-    overflow-x: hidden;    
+.html{
     box-sizing: border-box;
-}
-
-body {
-    font-family: 'Poppins', 'Roboto', sans-serif;
-    font-size: 16px;
+    scroll-behavior: smooth;
     
 }
-
-h1 {
-    color: darkslategray;
-    font-size: 3rem;
-    text-transform: uppercase;
-    font-weight: bold;
-    letter-spacing: 2px;
-    margin-top: 75px;
-    padding-top: 20px;
-    padding-bottom: 20px;
-    text-align: center;
-}
-
-h2 {
-    color: darkslategray;
-    font-size: 2.5rem;
-    text-transform: uppercase;
-    letter-spacing: 2px;
-    padding-top: 20px;
-    padding-bottom: 20px;
-    text-align: center;
-}
-
-h3 {
-    color: darkslategray;
-    font-size: 2rem;
-    text-transform: uppercase;
-    font-weight: bold;
-    letter-spacing: 2px;
-    padding-top: 20px;
-    padding-bottom: 20px;
-    text-align: center;
-}
-
-h4 {
-    color: darkslategray;
-    font-size: 1.5rem;
-    text-transform: uppercase;
-    font-weight: bold;
-    letter-spacing: 2px;
-    padding-top: 20px;
-    padding-bottom: 20px;
-    text-align: center;
-}
-h5 {
-    color: darkslategray;
-    font-size: 1rem;
-    text-transform: uppercase;
-    font-weight: bold;
-    letter-spacing: 2px;
-    padding-top: 20px;
-    padding-bottom: 20px;
-    text-align: center;
-}
-
-h6 {
-    color: darkslategray;
-    font-size: 0.5rem;
-    text-transform: uppercase;
-    font-weight: bold;
-    letter-spacing: 2px;
-    padding-top: 20px;
-    padding-bottom: 20px;
-    text-align: center;
-}
-
-.cont-form{
+body{
     margin: 0 auto;
     padding: 0 auto;
-    display: flex;
-    width: 750px;
-    justify-content: center;
-    background-color: rgb(204, 201, 201);
-    padding: 20px;
-    border-radius: 15px;
-}
-
-.cont-tbl {
-    margin: 0 auto;
-    padding: 0 auto;
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    width: 1280px;
-
-
-}
-
-.cont-tbl .tbl2{
-    width:550px;
-    margin-left: 50px;
-    margin-right: 50px;
-}
-.cont-tbl .tbl3{
-    width:450px;
-    margin-left: 50px;
-    margin-right: 50px;
-}
-.cont-tbl .tbl2 td{
-    font-size: 0.9rem;
-    text-transform: uppercase;
-}
-
-.footer{
-    width: 100%;
-    height: 15vh;
-    text-align: center;
-    color: #fff;
-    background-color: rgb(7, 50, 102);
-    
-}
-.footer h4{
-    font-size: 0.9rem;
-    margin-top: 50px;
-    padding-top: 30px;
-    color:#fff;
+    font-family: 'Montserrat';
+    font-size: 18px;
     font-weight: 300;
+    min-height: 100vh; /* Asegura que el cuerpo de la página tenga al menos la altura de la ventana */
+	display: flex;
+	flex-direction: column; 
 }
 
-.check-img{
-    margin-top: 20px;
-    justify-items: center;
-    display: block;
-    width: 20px;
-    height: 20px;
+
+
+
+.navbar-inverse {
+    background-color: #333;
+    border-color: #333;
+    border-radius: 0px;
+}
+.navbar-inverse .navbar-nav>li>a {
+    color: #08edf5;
+}
+.navbar-inverse .navbar-nav>.open>a,
+.navbar-inverse .navbar-nav>.open>a:hover,
+.navbar-inverse .navbar-nav>.open>a:focus {
+    background-color: #555;
+    color: #08edf5;
+}
+.navbar-brand{
+    font-size: 1.8rem;
+    color: #08edf5;
+}
+
+footer {
+    background-color: #333;
+    color: #08edf5;;
+    text-align: center;
+    padding: 10px;
+    position: fixed; /* Posiciona el elemento en la parte inferior de la ventana */
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+footer a{
+    color: #08edf5;
+    text-decoration: none;
 }
